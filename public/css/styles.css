@@ -23,11 +23,13 @@ h1 {
     font-family: "Ribbon";
     padding: 10px ;
     font-size: 30px;
-    text-shadow: 5px 0 #918b8b;
+    text-shadow: 5px 0 rgba(5, 5, 5, 0.9);
     transition: text-shadow 200ms;
+
 }
 h1:hover{
-    text-shadow: #020101 6px 0, #070707 6px 0 ;
+    text-shadow: #a9590d 6px 0, #a9590d 6px 0 ;
+    backdrop-filter: blur(50px);
 }
 dt {
     background-color: rgb(12, 11, 11);
@@ -67,8 +69,16 @@ h2 {
     border-radius: 5px;
     color: #0f1111;
     font-optical-sizing: auto;
+    transition: all 250ms ease;
+    position: relative;
 
 }
+h2:hover {
+    box-shadow: inset 0 0 0 0.5rem black;
+}
+
+
+
 i.material-icons {
     cursor: pointer;
     float: right;
@@ -123,9 +133,10 @@ dd input[type="search"] {
     margin-right: 1.3rem;
 }
 .mdc-text-field {
-    height: 2rem;
+    height: 2.5rem;
     margin: 12px;
 }
+
 
 label {
     width: 91%;
@@ -172,8 +183,9 @@ h2.mdc-dialog__title{
 .mdc-button--raised:not(:disabled) {
     background-color: #030505;
     font-family: 'Ribbon';
-
 }
+
+
 
 #my-dialog__title{
     font-family: Ribbon;

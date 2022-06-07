@@ -23,7 +23,7 @@ class SortierDialog extends React.Component {
       <div className="mdc-dialog mdc-dialog--open">
         <div className="mdc-dialog__container">
           <div className="mdc-dialog__surface">
-            <h2 className="mdc-dialog__title">Wähle die Sortierung:</h2>
+            <h2 className="mdc-dialog__title">Sortierung:</h2>
 
             <div className="mdc-dialog__content">
               <ul className="mdc-deprecated-list" onChange={e => this.handleChange(e)}>
