@@ -4,12 +4,12 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: inherit;
-    background-size: 400px;
+    background-size: 600px;
 
 
 }
 #container {
-    opacity: 75%;
+    opacity: 80%;
 }
 :root {
     --mdc-theme-primary: #181e19;
@@ -21,7 +21,7 @@ h1 {
     color: #faf7f7;
     letter-spacing: 6px;
     font-family: "Ribbon";
-    padding: 10px ;
+    padding: 1px ;
     font-size: 30px;
     text-shadow: 5px 0 rgba(5, 5, 5, 0.9);
     transition: text-shadow 200ms;
@@ -29,7 +29,6 @@ h1 {
 }
 h1:hover{
     text-shadow: #a9590d 6px 0, #a9590d 6px 0 ;
-    backdrop-filter: blur(50px);
 }
 dt {
     background-color: rgb(12, 11, 11);
@@ -113,17 +112,18 @@ dt span {
 
 dt, dd {
     height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 dd {
     display: flex;
     margin: 3px;
 }
 dd label {
-    padding: 3px 0;
+    padding: 1px 0;
     overflow: hidden;
     text-overflow: ellipsis;
     color: #0f110f;
+    font-family: Roboto;
 }
 dd label input[type="checkbox"] {
     margin: 6px 6px;
@@ -133,8 +133,9 @@ dd input[type="search"] {
     margin-right: 1.3rem;
 }
 .mdc-text-field {
-    height: 2.5rem;
-    margin: 12px;
+    height: 2.3rem;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 
 
