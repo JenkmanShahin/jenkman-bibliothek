@@ -16,11 +16,11 @@
     --mdc-theme-secondary: #d9cece;
 }
 h1 {
-    margin: 1px;
+    margin: 2px;
     text-align: center;
     color: #faf7f7;
     letter-spacing: 6px;
-    font-family: "Ribbon";
+    font-family: "Royal King";
     padding: 1px ;
     font-size: 30px;
     text-shadow: 5px 0 rgba(5, 5, 5, 0.9);
@@ -37,7 +37,8 @@ dt {
 }
 h2, dd {
     background-color: var(--mdc-theme-on-primary);
-    font-family: "Ribbon";
+    font-family: "Fake Identity";
+
     
 
 
@@ -46,9 +47,10 @@ h2, dd {
 .mdc-button .mdc-button__label {
     position: relative;
     background-color: #030505;
-    font-family: 'Ribbon';
+    font-family: 'Fake Identity';
     padding: 10px 10px 10px 10px;
     color: #ded9d9;
+
 
 
 
@@ -136,6 +138,7 @@ dd input[type="search"] {
     height: 2.3rem;
     margin-left: 15px;
     margin-top: 10px;
+
 }
 
 
@@ -160,7 +163,8 @@ footer {
 }
 h2.mdc-dialog__title{
     color: #ffffff;
-    font-family: "Ribbon";
+    font-family: "Fake Identity";
+
 }
 
 
@@ -183,13 +187,14 @@ h2.mdc-dialog__title{
 
 .mdc-button--raised:not(:disabled) {
     background-color: #030505;
-    font-family: 'Ribbon';
+    font-family: 'Fake Identity';
+    margin: 1px;
 }
 
 
 
 #my-dialog__title{
-    font-family: Ribbon;
+    font-family: "Fake Identity";
     color: #090808;
 }
 
